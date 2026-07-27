@@ -8,7 +8,7 @@ Record({
         active: 'true',
         name: 'Get from Innovator',
         specificity: '10',
-        table: 'x_1937158_myarchim_oslc_diagram',
+        table: 'x_2121140_archimat_oslc_diagram',
         ui_action: '5446afd4efc04c2a82a4f4a64c1a2908',
     },
 })

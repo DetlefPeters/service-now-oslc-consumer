@@ -5,7 +5,7 @@ Record({
     table: 'sys_uib_screen_test_values',
     data: {
         macroponent_config: `{
-    "listId": "x_1937158_myarchim_oslc_diagram"
+    "listId": "x_2121140_archimat_oslc_diagram"
 }`,
         screen: '41c02cebc3f543501c72b41ed401319d',
     },

@@ -7,9 +7,9 @@ export const archimateWorkspace = Workspace({
     title: 'ArchiMate Viewer',
     path: 'archimate',
     tables: [
-        'x_1937158_myarchim_oslc_diagram',
-        'x_1937158_myarchim_oslc_model_element',
-        'x_1937158_myarchim_oslc_model_relationship',
+        'x_2121140_archimat_oslc_diagram',
+        'x_2121140_archimat_oslc_model_element',
+        'x_2121140_archimat_oslc_model_relationship',
     ],
     listConfig: archimateListConfig,
     defaultRecordOverrides: {
@@ -58,6 +58,6 @@ Acl({
     localOrExisting: 'Existing',
     type: 'ux_route',
     operation: 'read',
-    roles: ['x_1937158_myarchim.user'],
+    roles: ['x_2121140_archimat.user'],
     name: 'archimate',
 })

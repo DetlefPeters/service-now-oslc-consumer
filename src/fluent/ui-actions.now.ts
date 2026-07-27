@@ -8,7 +8,7 @@ export const getFromInnovatorAction = Record({
     $id: Now.ID['get_from_innovator_action'],
     table: 'sys_declarative_action_assignment',
     data: {
-        table: 'x_1937158_myarchim_oslc_diagram',
+        table: 'x_2121140_archimat_oslc_diagram',
         model: 'c3547169534723003eddddeeff7b126c',
         label: 'Get from Innovator',
         declarative_action_type: 'server_script',

@@ -2,7 +2,7 @@ import { UxListMenuConfig, Applicability, Role } from '@servicenow/sdk/core'
 
 // --- Role ---
 const archimateUser = Role({
-    $id: Now.ID['x_1937158_myarchim.user'],
+    $id: Now.ID['x_2121140_archimat.user'],
     name: 'x_2121140_archimat.user',
     containsRoles: ['canvas_user'],
 })
@@ -24,22 +24,7 @@ export const archimateListConfig = UxListMenuConfig({
             $id: Now.ID['archimate_diagrams_category'],
             title: 'Diagrams',
             order: 10,
-            lists: [
-                {
-                    $id: Now.ID['archimate_diagrams_all'],
-                    title: 'All Diagrams',
-                    order: 10,
-                    condition: '',
-                    table: 'x_1937158_myarchim_oslc_diagram',
-                    columns: 'x_1937158_archim_0_diagram_name,x_1937158_archim_0_diagram_type,x_1937158_archim_0_diagram_id',
-                    applicabilities: [
-                        {
-                            $id: Now.ID['archimate_diagrams_all_applicability'],
-                            applicability: archimateApplicability,
-                        },
-                    ],
-                },
-            ],
+            lists: [],
         },
         {
             $id: Now.ID['archimate_elements_category'],
@@ -51,8 +36,9 @@ export const archimateListConfig = UxListMenuConfig({
                     title: 'All Elements',
                     order: 10,
                     condition: '',
-                    table: 'x_1937158_myarchim_oslc_model_element',
-                    columns: 'x_1937158_archim_0_element_name,x_1937158_archim_0_element_type,x_1937158_archim_0_element_id',
+                    table: 'x_2121140_archimat_model_element',
+                    columns:
+                        'x_2121140_archimat_0_element_name,x_2121140_archimat_0_element_type,x_2121140_archimat_0_element_id',
                     applicabilities: [
                         {
                             $id: Now.ID['archimate_elements_all_applicability'],
@@ -72,8 +58,9 @@ export const archimateListConfig = UxListMenuConfig({
                     title: 'All Relationships',
                     order: 10,
                     condition: '',
-                    table: 'x_1937158_myarchim_oslc_model_relationship',
-                    columns: 'x_1937158_archim_0_source_element,x_1937158_archim_0_relationship_type,x_1937158_archim_0_target_element',
+                    table: 'x_2121140_archimat_model_relationship',
+                    columns:
+                        'x_2121140_archimat_0_source_element,x_2121140_archimat_0_relationship_type,x_2121140_archimat_0_target_element',
                     applicabilities: [
                         {
                             $id: Now.ID['archimate_relationships_all_applicability'],

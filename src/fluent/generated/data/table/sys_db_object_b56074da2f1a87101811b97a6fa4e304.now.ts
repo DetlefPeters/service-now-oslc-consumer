@@ -1,0 +1,15 @@
+import { Table } from '@servicenow/sdk/core'
+
+export const x_2121140_archimat_model_provider = Table({
+    actions: ['read', 'update', 'create'],
+    allowClientScripts: true,
+    allowNewFields: true,
+    allowUiActions: true,
+    allowWebServiceAccess: true,
+    attributes: {
+        enforce_dot_walk_cross_scope_access: true,
+    },
+    label: 'Model Provider',
+    name: 'x_2121140_archimat_model_provider',
+    schema: {},
+})

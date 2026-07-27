@@ -33,6 +33,11 @@ declare global {
                         table: 'sys_ux_client_script'
                         id: '28c0a8ebc3f543501c72b41ed40131d6'
                     }
+                    '2c1b64de2fd687101811b97a6fa4e3af': {
+                        table: 'sys_security_acl'
+                        id: '2c1b64de2fd687101811b97a6fa4e3af'
+                        deleted: true
+                    }
                     '2cc0e8ebc3f543501c72b41ed4013107': {
                         table: 'sys_ux_client_script'
                         id: '2cc0e8ebc3f543501c72b41ed4013107'
@@ -109,6 +114,11 @@ declare global {
                         table: 'sys_uib_screen_test_values'
                         id: '7811e82fc3f543501c72b41ed40131da'
                     }
+                    '910ca4522f1a87101811b97a6fa4e39c': {
+                        table: 'sys_security_acl'
+                        id: '910ca4522f1a87101811b97a6fa4e39c'
+                        deleted: true
+                    }
                     '9d575ec8c38683101c72b41ed40131b4': {
                         table: 'sys_ux_client_script'
                         id: '9d575ec8c38683101c72b41ed40131b4'
@@ -128,6 +138,10 @@ declare global {
                     a5575ec8c38683101c72b41ed40131db: {
                         table: 'sys_ux_client_script'
                         id: 'a5575ec8c38683101c72b41ed40131db'
+                    }
+                    a7b434962f5a87101811b97a6fa4e3aa: {
+                        table: 'sys_security_acl'
+                        id: 'a7b434962f5a87101811b97a6fa4e3aa'
                     }
                     a8c0a8ebc3f543501c72b41ed40131d1: {
                         table: 'sys_ux_client_script'
@@ -149,6 +163,10 @@ declare global {
                         table: 'sys_ux_app_route'
                         id: 'a9579ec8c38683101c72b41ed4013122'
                     }
+                    aa6074da2f1a87101811b97a6fa4e3b1: {
+                        table: 'sys_security_acl'
+                        id: 'aa6074da2f1a87101811b97a6fa4e3b1'
+                    }
                     acc0e8ebc3f543501c72b41ed4013102: {
                         table: 'sys_ux_client_script'
                         id: 'acc0e8ebc3f543501c72b41ed4013102'
@@ -168,10 +186,12 @@ declare global {
                     archimate_diagrams_all: {
                         table: 'sys_ux_list'
                         id: 'bb6774b8f6054403a7f87d1d5911f89c'
+                        deleted: true
                     }
                     archimate_diagrams_all_applicability: {
                         table: 'sys_ux_applicability_m2m_list'
                         id: '256dd02b59134534aced32ea25b84673'
+                        deleted: true
                     }
                     archimate_diagrams_by_type_widget: {
                         table: 'par_dashboard_widget'
@@ -317,9 +337,18 @@ declare global {
                         table: 'sys_uib_screen_test_values'
                         id: 'b811e82fc3f543501c72b41ed40131f7'
                     }
+                    bb6774b8f6054403a7f87d1d5911f89c: {
+                        table: 'sys_ux_list'
+                        id: 'bb6774b8f6054403a7f87d1d5911f89c'
+                        deleted: true
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: '4f7b961ea7c74b32a596f6bf7fa25b2b'
+                    }
+                    c2013c1e2f1a87101811b97a6fa4e375: {
+                        table: 'sys_security_acl'
+                        id: 'c2013c1e2f1a87101811b97a6fa4e375'
                     }
                     c5c02cebc3f543501c72b41ed40131a4: {
                         table: 'sys_uib_screen_test_values'
@@ -405,7 +434,28 @@ declare global {
                     },
                     {
                         table: 'sys_security_acl_role'
+                        id: '1cac693075ea4747ba10802995b82f2b'
+                        key: {
+                            sys_security_acl: 'ce39cd95a9c54a4c8abf8456a0851ee4'
+                            sys_user_role: {
+                                id: 'edaccb985cca4510b038ac15f4000e0e'
+                                key: {
+                                    name: 'x_2121140_archimat.user'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '29ac6c83943741799a602a1d4e3204b7'
+                        key: {
+                            name: 'x_2121140_archimat_diagram'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
                         id: '3b8fb69cfeb64f70bb5937902bfcbad9'
+                        deleted: true
                         key: {
                             sys_security_acl: 'ce39cd95a9c54a4c8abf8456a0851ee4'
                             sys_user_role: {
@@ -443,6 +493,107 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '680ca4522f1a87101811b97a6fa4e36d'
+                        deleted: true
+                        key: {
+                            name: 'x_2121140_archimat_oslc_innovator_model'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '681b64de2fd687101811b97a6fa4e3d6'
+                        deleted: true
+                        key: {
+                            sys_security_acl: '2c1b64de2fd687101811b97a6fa4e3af'
+                            sys_user_role: {
+                                id: 'edaccb985cca4510b038ac15f4000e0e'
+                                key: {
+                                    name: 'x_2121140_archimat.user'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '6ae90291714c40d0ade0823e098b1d07'
+                        key: {
+                            name: 'x_2121140_archimat_model_element'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '79013c1e2f1a87101811b97a6fa4e304'
+                        key: {
+                            name: 'x_2121140_archimat_diagram'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '7e6074da2f1a87101811b97a6fa4e3df'
+                        key: {
+                            sys_security_acl: 'aa6074da2f1a87101811b97a6fa4e3b1'
+                            sys_user_role: {
+                                id: 'edaccb985cca4510b038ac15f4000e0e'
+                                key: {
+                                    name: 'x_2121140_archimat.user'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '7fb434962f5a87101811b97a6fa4e3f1'
+                        key: {
+                            sys_security_acl: 'a7b434962f5a87101811b97a6fa4e3aa'
+                            sys_user_role: {
+                                id: 'edaccb985cca4510b038ac15f4000e0e'
+                                key: {
+                                    name: 'x_2121140_archimat.user'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: '8465dee527f64ddeb6cd5b3ca6b6fd32'
+                        key: {
+                            name: 'x_2121140_archimat_model_provider'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '8c3188b14a2d4fb19d88efaf0fd66237'
+                        key: {
+                            name: 'x_2121140_archimat_model_provider'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '9660f49a2f1a87101811b97a6fa4e392'
+                        key: {
+                            name: 'x_2121140_archimat_model_provider'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
                         table: 'sys_ux_form_action'
                         id: '9b33042bc3f143501c72b41ed40131d9'
                         key: {
@@ -450,10 +601,173 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: '9d0ce4522f1a87101811b97a6fa4e35f'
+                        deleted: true
+                        key: {
+                            sys_security_acl: '910ca4522f1a87101811b97a6fa4e39c'
+                            sys_user_role: {
+                                id: 'edaccb985cca4510b038ac15f4000e0e'
+                                key: {
+                                    name: 'x_2121140_archimat.user'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '9f0be0de2fd687101811b97a6fa4e386'
+                        deleted: true
+                        key: {
+                            name: 'x_2121140_archimat_oslc_diagram'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'a00ca4522f1a87101811b97a6fa4e314'
+                        deleted: true
+                        key: {
+                            name: 'x_2121140_archimat_oslc_innovator_model'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a1013c1e2f1a87101811b97a6fa4e333'
+                        key: {
+                            name: 'x_2121140_archimat_diagram'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'b16074da2f1a87101811b97a6fa4e30a'
+                        key: {
+                            name: 'x_2121140_archimat_model_provider'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'b59b265766c94233910a6906988672cd'
+                        key: {
+                            name: 'x_2121140_archimat_diagram'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'b60be0de2fd687101811b97a6fa4e3c6'
+                        deleted: true
+                        key: {
+                            name: 'x_2121140_archimat_oslc_diagram'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'bbe78a81014c4152802522f18cf5da3b'
+                        key: {
+                            name: 'x_2121140_archimat_model_element'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: 'bc724b528702488bace60ef4aa2f1d03'
+                        key: {
+                            name: 'x_2121140_archimat_model_provider'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'c3b4f0962f5a87101811b97a6fa4e3fd'
+                        key: {
+                            name: 'x_2121140_archimat_model_element'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'c4d6d094962e4dfc94a8c6cdcfe630e9'
+                        key: {
+                            name: 'x_2121140_archimat_model_element'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'd5e67d8a7a4044aa9a0214d1baf2ee93'
+                        key: {
+                            name: 'x_2121140_archimat_diagram'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'da013c1e2f1a87101811b97a6fa4e3fa'
+                        key: {
+                            sys_security_acl: 'c2013c1e2f1a87101811b97a6fa4e375'
+                            sys_user_role: {
+                                id: 'edaccb985cca4510b038ac15f4000e0e'
+                                key: {
+                                    name: 'x_2121140_archimat.user'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: 'dfb4f0962f5a87101811b97a6fa4e3ef'
+                        key: {
+                            name: 'x_2121140_archimat_model_element'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
                         table: 'sys_user_role'
                         id: 'edaccb985cca4510b038ac15f4000e0e'
                         key: {
                             name: 'x_2121140_archimat.user'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: 'f00c60522f1a87101811b97a6fa4e3b1'
+                        deleted: true
+                        key: {
+                            name: 'x_2121140_archimat_oslc_innovator_model'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'fa0be0de2fd687101811b97a6fa4e3c2'
+                        deleted: true
+                        key: {
+                            name: 'x_2121140_archimat_oslc_diagram'
                         }
                     },
                 ]

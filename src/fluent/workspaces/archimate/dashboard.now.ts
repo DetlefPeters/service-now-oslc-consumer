@@ -18,7 +18,7 @@ Dashboard({
                             {
                                 label: 'Diagrams',
                                 sourceType: 'table',
-                                tableOrViewName: 'x_1937158_myarchim_oslc_diagram',
+                                tableOrViewName: 'x_2121140_archimat_diagram',
                                 filterQuery: '',
                                 id: 'data_source_diagrams',
                             },
@@ -46,7 +46,7 @@ Dashboard({
                             {
                                 label: 'Diagrams',
                                 sourceType: 'table',
-                                tableOrViewName: 'x_1937158_myarchim_oslc_diagram',
+                                tableOrViewName: 'x_2121140_archimat_diagram',
                                 filterQuery: '',
                                 id: 'data_source_diagrams_type',
                             },
@@ -65,7 +65,7 @@ Dashboard({
                                 groupBy: [
                                     {
                                         dataSource: 'data_source_diagrams_type',
-                                        groupByField: 'x_1937158_archim_0_diagram_type',
+                                        groupByField: 'x_2121140_archimat_0_diagram_type',
                                     },
                                 ],
                                 maxNumberOfGroups: 10,
@@ -86,7 +86,7 @@ Dashboard({
                             {
                                 label: 'Model Elements',
                                 sourceType: 'table',
-                                tableOrViewName: 'x_1937158_myarchim_oslc_model_element',
+                                tableOrViewName: 'x_2121140_archimat_model_element',
                                 filterQuery: '',
                                 id: 'data_source_elements_type',
                             },
@@ -105,7 +105,7 @@ Dashboard({
                                 groupBy: [
                                     {
                                         dataSource: 'data_source_elements_type',
-                                        groupByField: 'x_1937158_archim_0_element_type',
+                                        groupByField: 'x_2121140_archimat_0_element_type',
                                     },
                                 ],
                                 maxNumberOfGroups: 10,

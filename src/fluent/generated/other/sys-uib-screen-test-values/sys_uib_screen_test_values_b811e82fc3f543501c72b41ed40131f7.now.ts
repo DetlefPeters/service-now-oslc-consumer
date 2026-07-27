@@ -7,7 +7,7 @@ Record({
         macroponent: '10c0a8abc3f543501c72b41ed40131f3',
         macroponent_config: `{
     "mcpTestValues": {
-        "listId": "x_1937158_myarchim_oslc_diagram"
+        "listId": "x_2121140_archimat_oslc_diagram"
     },
     "modalModelessSizing": {
         "modelessHeight": "600",

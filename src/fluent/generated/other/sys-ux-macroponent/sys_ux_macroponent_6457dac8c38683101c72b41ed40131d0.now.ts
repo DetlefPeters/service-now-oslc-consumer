@@ -101,7 +101,7 @@ Record({
                                     "conditional": null,
                                     "declarativeAction": null,
                                     "event": {
-                                        "apiName": "x_1937158_myarchim.NAV_ITEM_SELECTED_RELAY_6457dac8c38683101c72b41ed40131d0",
+                                        "apiName": "x_2121140_archimat.NAV_ITEM_SELECTED_RELAY_6457dac8c38683101c72b41ed40131d0",
                                         "payload": {
                                             "container": {
                                                 "external": {
