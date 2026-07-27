@@ -635,7 +635,7 @@ Record({
                                     "clientScript": null,
                                     "declarativeAction": null,
                                     "event": {
-                                        "apiName": "x_2121140_archimat.NAV_ITEM_SELECTED_RELAY_10c0a8abc3f543501c72b41ed40131f3",
+                                        "apiName": "x_1937158_myarchim.NAV_ITEM_SELECTED_RELAY_10c0a8abc3f543501c72b41ed40131f3",
                                         "payload": {
                                             "container": {
                                                 "external": {

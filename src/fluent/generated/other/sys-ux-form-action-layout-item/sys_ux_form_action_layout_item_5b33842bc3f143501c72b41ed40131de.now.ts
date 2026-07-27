@@ -13,6 +13,6 @@ Record({
         name: 'Get from Innovator',
         order: '100',
         overflow: 'false',
-        table: 'x_2121140_archimat_oslc_diagram',
+        table: 'x_1937158_myarchim_oslc_diagram',
     },
 })
