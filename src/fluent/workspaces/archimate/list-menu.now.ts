@@ -24,7 +24,22 @@ export const archimateListConfig = UxListMenuConfig({
             $id: Now.ID['archimate_diagrams_category'],
             title: 'Diagrams',
             order: 10,
-            lists: [],
+            lists: [
+                {
+                    $id: Now.ID['archimate_diagrams_all'],
+                    title: 'All Diagrams',
+                    order: 10,
+                    condition: '',
+                    table: 'x_2121140_archimat_diagram',
+                    columns: 'u_diagram_name,u_diagram_type,u_diagram_id',
+                    applicabilities: [
+                        {
+                            $id: Now.ID['archimate_diagrams_all_applicability'],
+                            applicability: archimateApplicability,
+                        },
+                    ],
+                },
+            ],
         },
         {
             $id: Now.ID['archimate_elements_category'],

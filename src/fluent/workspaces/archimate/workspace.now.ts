@@ -7,9 +7,9 @@ export const archimateWorkspace = Workspace({
     title: 'ArchiMate Viewer',
     path: 'archimate',
     tables: [
-        'x_2121140_archimat_oslc_diagram',
-        'x_2121140_archimat_oslc_model_element',
-        'x_2121140_archimat_oslc_model_relationship',
+        'x_2121140_archimat_diagram',
+        'x_2121140_archimat_model_element',
+        'x_2121140_archimat_model_relationship',
     ],
     listConfig: archimateListConfig,
     defaultRecordOverrides: {
