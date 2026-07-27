@@ -38,7 +38,7 @@ export const archimateListConfig = UxListMenuConfig({
                     condition: '',
                     table: 'x_2121140_archimat_model_element',
                     columns:
-                        'x_2121140_archimat_0_element_name,x_2121140_archimat_0_element_type,x_2121140_archimat_0_element_id',
+                        'u_element_name,u_element_type,u_element_id',
                     applicabilities: [
                         {
                             $id: Now.ID['archimate_elements_all_applicability'],
@@ -60,7 +60,7 @@ export const archimateListConfig = UxListMenuConfig({
                     condition: '',
                     table: 'x_2121140_archimat_model_relationship',
                     columns:
-                        'x_2121140_archimat_0_source_element,x_2121140_archimat_0_relationship_type,x_2121140_archimat_0_target_element',
+                        'u_source_element,u_relationship_type,u_target_element',
                     applicabilities: [
                         {
                             $id: Now.ID['archimate_relationships_all_applicability'],

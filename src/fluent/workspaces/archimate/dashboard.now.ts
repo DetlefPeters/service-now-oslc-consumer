@@ -65,7 +65,7 @@ Dashboard({
                                 groupBy: [
                                     {
                                         dataSource: 'data_source_diagrams_type',
-                                        groupByField: 'x_2121140_archimat_0_diagram_type',
+                                        groupByField: 'u_diagram_type',
                                     },
                                 ],
                                 maxNumberOfGroups: 10,
@@ -105,7 +105,7 @@ Dashboard({
                                 groupBy: [
                                     {
                                         dataSource: 'data_source_elements_type',
-                                        groupByField: 'x_2121140_archimat_0_element_type',
+                                        groupByField: 'u_element_type',
                                     },
                                 ],
                                 maxNumberOfGroups: 10,

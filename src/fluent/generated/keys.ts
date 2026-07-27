@@ -425,6 +425,19 @@ declare global {
                 }
                 composite: [
                     {
+                        table: 'sys_security_acl_role'
+                        id: '0098f0de2f5a87101811b97a6fa4e31f'
+                        key: {
+                            sys_security_acl: '3f88f0de2f5a87101811b97a6fa4e315'
+                            sys_user_role: {
+                                id: 'edaccb985cca4510b038ac15f4000e0e'
+                                key: {
+                                    name: 'x_2121140_archimat.user'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'par_dashboard_visibility'
                         id: '00e75626a1e54eb8b8b8e8fcb4bfb6c2'
                         key: {
@@ -561,6 +574,23 @@ declare global {
                                     name: 'x_2121140_archimat.user'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '801405db42e5433096dadd8751b17e84'
+                        key: {
+                            name: 'x_2121140_archimat_model_relationship'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '838870de2f5a87101811b97a6fa4e3fb'
+                        key: {
+                            name: 'x_2121140_archimat_model_relationship'
+                            element: 'NULL'
+                            language: 'en'
                         }
                     },
                     {
@@ -725,10 +755,32 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_db_object'
+                        id: 'dd740eb53d214072a214398343e3ad9c'
+                        key: {
+                            name: 'x_2121140_archimat_model_relationship'
+                        }
+                    },
+                    {
                         table: 'sys_ui_section'
                         id: 'dfb4f0962f5a87101811b97a6fa4e3ef'
                         key: {
                             name: 'x_2121140_archimat_model_element'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: 'e388b0de2f5a87101811b97a6fa4e35e'
+                        key: {
+                            name: 'x_2121140_archimat_model_relationship'
                             caption: 'NULL'
                             view: {
                                 id: 'Default view'
