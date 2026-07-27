@@ -1,0 +1,7 @@
+{
+    "scope": "x_1937158_myarchim",
+    "scopeId": "b67277adc31f72101c72b41ed40131b1",
+    "name": "MyArchimateViewer",
+    "tsconfigPath": "./src/server/tsconfig.json",
+    "description": "Connect to Innovator and retrieve diagrams"
+}
