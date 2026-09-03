@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="cf8870de2f5a87101811b97a6fa4e3cf" label="Model Relationship" max_length="40" name="x_2121140_archimat_model_relationship" type="collection"/>
+</database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="ArchiMate Viewer">72213b5131e5472aa75c4b6711fabfa6</page>
+        <required_translations/>
+        <route/>
+        <suffix>chrome_toolbar</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 08:57:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67130b8e15954b4591b782c983eb32a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_update_name>sys_ux_page_property_67130b8e15954b4591b782c983eb32a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 08:57:24</sys_updated_on>
+        <type>json</type>
+        <unique_name/>
+        <value>[{"id":"home","label":{"translatable":true,"message":"Home"},"icon":"home-fill","routeInfo":{"route":"home"},"group":"top","order":100,"badge":{},"presence":{},"availability":{},"viewportInfo":{}},{"id":"list","label":{"translatable":true,"message":"List"},"icon":"list-fill","routeInfo":{"route":"list"},"group":"top","order":200,"badge":{},"presence":{},"availability":{},"viewportInfo":{}}]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=67130b8e15954b4591b782c983eb32a5"/>
+</record_update>

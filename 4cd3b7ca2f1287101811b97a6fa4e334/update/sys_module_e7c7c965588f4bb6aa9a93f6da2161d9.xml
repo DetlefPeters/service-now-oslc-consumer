@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[import { gs } from '@servicenow/glide';
+export function showStateUpdate(current, previous) {
+    const currentState = current.getValue('state');
+    const previousState = previous.getValue('state');
+    gs.addInfoMessage(`state updated from "${previousState}" to "${currentState}"`);
+}
+]]></content>
+        <external_source>false</external_source>
+        <path>x_2121140_archimat/x-2121140-archimate-viewer-demo/1.0.0/src/server/script.ts</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 08:57:20</sys_created_on>
+        <sys_id>e7c7c965588f4bb6aa9a93f6da2161d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2121140_archimat/x-2121140-archimate-viewer-demo/1.0.0/src/server/script.ts</sys_name>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_update_name>sys_module_e7c7c965588f4bb6aa9a93f6da2161d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 08:57:20</sys_updated_on>
+    </sys_module>
+</record_update>

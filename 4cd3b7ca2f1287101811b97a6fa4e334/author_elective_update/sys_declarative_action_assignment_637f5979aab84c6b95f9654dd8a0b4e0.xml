@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_assignment">
+  <sys_declarative_action_assignment action="DELETE">
+    <sys_id>637f5979aab84c6b95f9654dd8a0b4e0</sys_id>
+    <sys_scope display_value="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+    <sys_update_name>sys_declarative_action_assignment_637f5979aab84c6b95f9654dd8a0b4e0</sys_update_name>
+    <action_type>type</action_type>
+    <active>true</active>
+    <button_type>primary</button_type>
+    <client_action>a28844b353263110bdf7ddeeff7b1244</client_action>
+    <client_script>function onClick() { }</client_script>
+    <declarative_action_type>server_script</declarative_action_type>
+    <enabled>true</enabled>
+    <interaction/>
+    <label>Get from Innovator</label>
+    <model>c3547169534723003eddddeeff7b126c</model>
+    <order>10</order>
+    <record_selection_required>false</record_selection_required>
+    <server_script>var importer = new x_1937158_archim_0.InoOSLCImporter();
+var count = importer.importDiagrams();
+gs.addInfoMessage('Successfully imported ' + count + ' diagrams from MID Innovator');</server_script>
+    <table>x_2121140_archimat_diagram</table>
+    <tooltip>Query diagrams from OSLC Consumer for MID Innovator and import them</tooltip>
+  </sys_declarative_action_assignment>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</application>
+        <file_path/>
+        <instance_id>00aff1a6fb31c398363cf633beefdc31</instance_id>
+        <instance_name>dev420506</instance_name>
+        <name>sys_declarative_action_assignment_637f5979aab84c6b95f9654dd8a0b4e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_assignment">
+  <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+    <sys_id>637f5979aab84c6b95f9654dd8a0b4e0</sys_id>
+    <sys_scope display_value="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+    <sys_update_name>sys_declarative_action_assignment_637f5979aab84c6b95f9654dd8a0b4e0</sys_update_name>
+    <action_type>type</action_type>
+    <active>true</active>
+    <button_type>primary</button_type>
+    <client_action>a28844b353263110bdf7ddeeff7b1244</client_action>
+    <client_script>function onClick() { }</client_script>
+    <declarative_action_type>server_script</declarative_action_type>
+    <enabled>true</enabled>
+    <interaction/>
+    <label>Get from Innovator</label>
+    <model>c3547169534723003eddddeeff7b126c</model>
+    <order>10</order>
+    <record_selection_required>false</record_selection_required>
+    <server_script>var importer = new x_1937158_archim_0.InoOSLCImporter();
+var count = importer.importDiagrams();
+gs.addInfoMessage('Successfully imported ' + count + ' diagrams from MID Innovator');</server_script>
+    <table>x_2121140_archimat_diagram</table>
+    <tooltip>Query diagrams from OSLC Consumer for MID Innovator and import them</tooltip>
+  </sys_declarative_action_assignment>
+</record_update>]]></payload>
+        <payload_hash>-151504832</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>70e1cd162fda87101811b97a6fa4e349</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 14:07:46</sys_created_on>
+        <sys_id>05e1cd162fda87101811b97a6fa4e380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fa3e736360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 14:07:46</sys_updated_on>
+        <type>Action Assignment</type>
+        <update_guid>4de1cd1616da8710f2e12d472559e57f</update_guid>
+        <update_guid_history>4de1cd1616da8710f2e12d472559e57f:0,18c041927fda8710518db5036ad915e8:0,da5fbc9e739a8710cd2e5e81cab4bf9a:0,3899ac9a0ad6871056462e8763bc10b5:0,25da774a2152871043b0c5b11667c491:504880815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 14:18:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_assignment">sys_declarative_action_assignment</sys_db_object>
+        <sys_id>399b5301754d433abd0f0b8b884fd7c4</sys_id>
+        <sys_metadata>637f5979aab84c6b95f9654dd8a0b4e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_scope_delete display_value="">c8bb41040b9443b69ff3726f346ef3c9</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_assignment_637f5979aab84c6b95f9654dd8a0b4e0</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_assignment_637f5979aab84c6b95f9654dd8a0b4e0">05e1cd162fda87101811b97a6fa4e380</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 14:18:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

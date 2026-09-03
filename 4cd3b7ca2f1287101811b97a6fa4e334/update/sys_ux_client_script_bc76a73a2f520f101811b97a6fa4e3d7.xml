@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="DPE List Page ">1476ab762f520f101811b97a6fa4e3ce</macroponent>
+        <name>Refresh List</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function handler({
+      api,
+      event: {
+          payload,
+          payload: {
+              name,
+              value,
+              previousValue
+          }
+      },
+      helpers,
+      imports
+    }) {
+      if (name === 'screen' &&
+          value.isActive != previousValue.isActive
+          && value.isActive
+          && api.state.hasRecordChanges) {
+          api.setState('hasRecordChanges', false);
+          api.setState('listRefresh', { timestamp: Date.now(), background: true });
+      }
+      if (name === 'activityLogs' && value && value.size > 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLen = map.activities.get('crud').length;
+        if (crudActivitiesLen < 1)
+            return;
+        const {
+            operation,
+            sysId,
+            timestamp
+        } = map.activities.get('crud')[crudActivitiesLen - 1];
+        if (operationList.includes(operation) &&
+            sysId !== "-1" &&
+            !api.context.props.screen.isActive &&
+            !api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', true);
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-29 15:23:42</sys_created_on>
+        <sys_id>bc76a73a2f520f101811b97a6fa4e3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_update_name>sys_ux_client_script_bc76a73a2f520f101811b97a6fa4e3d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-29 15:23:42</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="ArchiMate Viewer">d248bf058c9344898838f201df8c1857</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Dashboards Default</name>
+        <optional_parameters>sysId,edit,tabSysId,filter,element</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="Dashboards Default">909c81a896014fd39f6ebff802bdee53</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 08:57:21</sys_created_on>
+        <sys_id>109d4cd0b6cb48ac8dc3e7006dca9f79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboards Default</sys_name>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_update_name>sys_ux_app_route_109d4cd0b6cb48ac8dc3e7006dca9f79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 08:57:21</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=109d4cd0b6cb48ac8dc3e7006dca9f79"/>
+</record_update>

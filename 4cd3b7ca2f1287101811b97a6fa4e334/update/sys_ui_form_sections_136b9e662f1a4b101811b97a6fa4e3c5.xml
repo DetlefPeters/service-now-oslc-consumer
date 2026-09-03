@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="136b9e662f1a4b101811b97a6fa4e3c5" sys_domain="global" table="x_2121140_archimat_model_provider" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 15:17:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>136b9e662f1a4b101811b97a6fa4e3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2121140_archimat_model_provider" name="x_2121140_archimat_model_provider" sys_domain="global" view="Default view">136b9e662f1a4b101811b97a6fa4e3c5</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_2121140_archimat_model_provider" sys_domain="global" view="Default view">9660f49a2f1a87101811b97a6fa4e392</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 15:17:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 15:17:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b6b9e662f1a4b101811b97a6fa4e3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2121140_archimat_model_provider" name="x_2121140_archimat_model_provider" sys_domain="global" view="Default view">136b9e662f1a4b101811b97a6fa4e3c5</sys_ui_form>
+            <sys_ui_section caption="History" display_value="History" name="x_2121140_archimat_model_provider" sys_domain="global" view="Default view">5b6b9e662f1a4b101811b97a6fa4e39d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 15:17:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2121140_archimat_model_provider</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 15:17:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>136b9e662f1a4b101811b97a6fa4e3c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2121140_archimat_model_provider</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+            <sys_update_name>sys_ui_form_sections_136b9e662f1a4b101811b97a6fa4e3c5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 15:17:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 12:28:04</sys_created_on>
+        <sys_id>681b64de2fd687101811b97a6fa4e3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2121140_archimat_oslc_diagram.x_2121140_archimat.user</sys_name>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_security_acl display_value="x_2121140_archimat_oslc_diagram">2c1b64de2fd687101811b97a6fa4e3af</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_681b64de2fd687101811b97a6fa4e3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 12:28:04</sys_updated_on>
+        <sys_user_role display_value="x_2121140_archimat.user" name="x_2121140_archimat.user">edaccb985cca4510b038ac15f4000e0e</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</application>
+        <file_path/>
+        <instance_id>00aff1a6fb31c398363cf633beefdc31</instance_id>
+        <instance_name>dev420506</instance_name>
+        <name>sys_security_acl_role_681b64de2fd687101811b97a6fa4e3d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-27 12:28:04</sys_created_on><sys_id>681b64de2fd687101811b97a6fa4e3d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2121140_archimat_oslc_diagram.x_2121140_archimat.user</sys_name><sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package><sys_policy/><sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope><sys_security_acl display_value="x_2121140_archimat_oslc_diagram">2c1b64de2fd687101811b97a6fa4e3af</sys_security_acl><sys_update_name>sys_security_acl_role_681b64de2fd687101811b97a6fa4e3d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-27 12:28:04</sys_updated_on><sys_user_role display_value="x_2121140_archimat.user" name="x_2121140_archimat.user">edaccb985cca4510b038ac15f4000e0e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-134047216</payload_hash>
+        <record_name>x_2121140_archimat_oslc_diagram.x_2121140_archimat.user</record_name>
+        <reverted_from/>
+        <source>0cd3b7ca2f1287101811b97a6fa4e337</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 12:28:05</sys_created_on>
+        <sys_id>ec1b64de2fd687101811b97a6fa4e3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fa38bf0800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 12:28:05</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e81b64dec7d6871041300aa310d2afeb</update_guid>
+        <update_guid_history>e81b64dec7d6871041300aa310d2afeb:-134047216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_2121140_archimat_oslc_diagram.x_2121140_archimat.user">7dff249a2f1a87101811b97a6fa4e376</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 12:49:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>16e3edc231804a5783f3b13d94418ac9</sys_id>
+        <sys_metadata>681b64de2fd687101811b97a6fa4e3d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2121140_archimat_oslc_diagram.x_2121140_archimat.user</sys_name>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_parent display_value="">2c1b64de2fd687101811b97a6fa4e3af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_scope_delete display_value="">c8bb41040b9443b69ff3726f346ef3c9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_681b64de2fd687101811b97a6fa4e3d6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_681b64de2fd687101811b97a6fa4e3d6">ec1b64de2fd687101811b97a6fa4e3ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 12:49:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

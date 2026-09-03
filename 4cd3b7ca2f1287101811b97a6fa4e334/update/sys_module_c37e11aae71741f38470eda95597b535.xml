@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "name": "x-2121140-archimate-viewer-demo",
+  "version": "1.0.0",
+  "description": "[BUILD AGENT GENERATED]:  demonstration of OSLC connection to MID Innovator",
+  "license": "UNLICENSED",
+  "imports": {
+    "#now:*": "./@types/servicenow/fluent/*/index.js"
+  },
+  "scripts": {
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.9.0",
+    "@servicenow/glide": "27.0.5"
+  }
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_2121140_archimat/x-2121140-archimate-viewer-demo/1.0.0/package.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 08:57:20</sys_created_on>
+        <sys_id>c37e11aae71741f38470eda95597b535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2121140_archimat/x-2121140-archimate-viewer-demo/1.0.0/package.json</sys_name>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_update_name>sys_module_c37e11aae71741f38470eda95597b535</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 08:57:20</sys_updated_on>
+    </sys_module>
+</record_update>

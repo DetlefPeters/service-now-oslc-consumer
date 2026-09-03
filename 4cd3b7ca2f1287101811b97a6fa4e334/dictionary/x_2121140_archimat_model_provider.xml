@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b56074da2f1a87101811b97a6fa4e304" label="Model Provider" max_length="40" name="x_2121140_archimat_model_provider" type="collection"/>
+</database>

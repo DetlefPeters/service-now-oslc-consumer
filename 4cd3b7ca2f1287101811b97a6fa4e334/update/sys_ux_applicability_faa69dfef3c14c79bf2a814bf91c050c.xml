@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_2121140_archimat.ArchiMate Workspace Users</api_name>
+        <description/>
+        <name>ArchiMate Workspace Users</name>
+        <role_names/>
+        <roles name="x_2121140_archimat.user">edaccb985cca4510b038ac15f4000e0e</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 08:57:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>faa69dfef3c14c79bf2a814bf91c050c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ArchiMate Workspace Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_update_name>sys_ux_applicability_faa69dfef3c14c79bf2a814bf91c050c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 08:57:22</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

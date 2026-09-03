@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_1476ab762f520f101811b97a6fa4e3ce</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Toggle modal relay</label>
+        <props>[
+    {
+        "fieldType": "string",
+        "interfaceApiName": "global.modal",
+        "label": "Modal",
+        "name": "modalId",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "boolean",
+        "label": "Show Modal",
+        "name": "showModal",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "label": "Modal display options",
+        "name": "displayOptions",
+        "valueType": "string"
+    }
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-29 15:23:42</sys_created_on>
+        <sys_id>3c76a73a2f520f101811b97a6fa4e3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toggle modal relay</sys_name>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_update_name>sys_ux_event_3c76a73a2f520f101811b97a6fa4e3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-29 15:23:42</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c76a73a2f520f101811b97a6fa4e3ea"/>
+</record_update>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>get_from_innovator</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+    var ga = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
+    ga.addParam('sysparm_name', 'getProviders');
+    ga.getXMLAnswer(function(answer) {
+        var providers = JSON.parse(answer);
+        if (!providers || providers.length === 0) {
+            g_form.addErrorMessage('No model providers found. Please add providers first.');
+            return;
+        }
+        var fields = [{
+            type: 'select',
+            name: 'provider',
+            label: 'Select Provider',
+            mandatory: true,
+            options: providers.map(function(p) {
+                return { value: p.provider_id, label: p.name };
+            })
+        }];
+        g_modal.showFields({
+            title: 'Get from Innovator',
+            fields: fields,
+            size: 'sm',
+            confirmTitle: 'Import'
+        }).then(function(fieldValues) {
+            var selectedProviderId = fieldValues.updatedFields[0].value;
+            var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
+            ga2.addParam('sysparm_name', 'importDiagramsAjax');
+            ga2.addParam('sysparm_provider_id', selectedProviderId);
+            ga2.getXMLAnswer(function(importAnswer) {
+                var result = JSON.parse(importAnswer);
+                g_form.addInfoMessage('Successfully imported ' + result.count + ' diagrams (Provider ID: ' + result.provider_id + ')');
+            });
+        });
+    });
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_icon/>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint>Select a model provider and import diagrams from MID Innovator via OSLC</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>true</list_button>
+        <list_button_icon/>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style>primary</list_style>
+        <messages/>
+        <name>Get from Innovator</name>
+        <onclick>importFromInnovator()</onclick>
+        <order>10</order>
+        <script><![CDATA[function importFromInnovator() {
+    var ga = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
+    ga.addParam('sysparm_name', 'getProviders');
+    ga.getXMLAnswer(function(answer) {
+        var providers = JSON.parse(answer);
+        if (!providers || providers.length === 0) {
+            alert('No model providers found. Please add providers first.');
+            return;
+        }
+        // Build a simple selection dialog for classic UI
+        var html = '<select id="provider_select" style="width:100%;padding:4px;">';
+        for (var i = 0; i < providers.length; i++) {
+            html += '<option value="' + providers[i].provider_id + '">' + providers[i].name + '</option>';
+        }
+        html += '</select>';
+        var dialog = new GlideDialogWindow('glide_confirm_basic');
+        dialog.setTitle('Get from Innovator');
+        dialog.setBody(html);
+        dialog.setPreference('onPromptComplete', function() {
+            var selectedId = document.getElementById('provider_select').value;
+            var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
+            ga2.addParam('sysparm_name', 'importDiagramsAjax');
+            ga2.addParam('sysparm_provider_id', selectedId);
+            ga2.getXMLAnswer(function(importAnswer) {
+                var result = JSON.parse(importAnswer);
+                var listId = gel('sys_target').value;
+                GlideList2.get(listId).refresh();
+            });
+        });
+        dialog.render();
+    });
+}]]></script>
+        <show_form_icon_only>false</show_form_icon_only>
+        <show_insert>true</show_insert>
+        <show_list_icon_only>false</show_list_icon_only>
+        <show_multiple_update>true</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 14:12:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30b72d2a420a449a82712b87c0e9c3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get from Innovator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ArchimateViewerDemo" source="x_2121140_archimat">4cd3b7ca2f1287101811b97a6fa4e334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ArchimateViewerDemo">4cd3b7ca2f1287101811b97a6fa4e334</sys_scope>
+        <sys_update_name>sys_ui_action_30b72d2a420a449a82712b87c0e9c3df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 14:12:47</sys_updated_on>
+        <table>x_2121140_archimat_diagram</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>
