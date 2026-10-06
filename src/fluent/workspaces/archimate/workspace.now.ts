@@ -6,14 +6,10 @@ export const archimateWorkspace = Workspace({
     $id: Now.ID['archimate_workspace'],
     title: 'ArchiMate Viewer',
     path: 'archimate',
-    tables: [
-        'x_2121140_archimat_diagram',
-        'x_2121140_archimat_model_element',
-        'x_2121140_archimat_model_relationship',
-    ],
+    tables: ['x_2121140_archimat_diagram', 'x_2121140_archimat_model_element', 'x_2121140_archimat_model_relationship'],
     listConfig: archimateListConfig,
     defaultRecordOverrides: {
-        sys_ux_screen_14463396c49c41799d447545a81d0608: {
+        sys_ux_screen_9e689784ca724ba78abdc28d3ccce7a2: {
             active: 'true',
             name: 'List Page',
             description: '',
@@ -21,26 +17,8 @@ export const archimateWorkspace = Workspace({
             macroponent: '2c08111d0fc21010036a83fa68767ef6',
             parent_macroponent: 'c276387cc331101080d6d3658940ddd2',
             screen_condition: '',
-            screen_type: 'a07101a9032b4887ab3322cc8007eed4',
-            app_config: 'ec99290299654743a3412827bd28fc62',
-            macroponent_config:
-                '{"bare":{"type":"JSON_LITERAL","value":true},"headerLevel":{"type":"JSON_LITERAL","value":"1"},"headingOnlyVisibleToScreenReaders":{"type":"JSON_LITERAL","value":false},"interceptNotifications":{"type":"JSON_LITERAL","value":false},"label":{"type":"TRANSLATION_LITERAL","value":{"code":null,"comment":"","message":""}},"propagateNotifications":{"type":"JSON_LITERAL","value":false},"scrollable":{"type":"JSON_LITERAL","value":"y"}}',
-            disable_auto_reflow: 'false',
-            disable_interoperable: 'false',
-            event_mappings: '[]',
-            required_translations: '[]',
-            rollback_screen: '',
-        },
-        sys_ux_screen_905e8272410544098f48dbd40f4a7a11: {
-            active: 'true',
-            name: 'Simple List',
-            description: '',
-            order: '0',
-            macroponent: '8515f3e853031010ffa5ddeeff7b1297',
-            parent_macroponent: 'c276387cc331101080d6d3658940ddd2',
-            screen_condition: '',
-            screen_type: '5b41b9bf0a6e478c8161bd990a73fc55',
-            app_config: 'ec99290299654743a3412827bd28fc62',
+            screen_type: 'a24bf864a0ec4194b7de4cff23095dab',
+            app_config: 'd248bf058c9344898838f201df8c1857',
             macroponent_config:
                 '{"bare":{"type":"JSON_LITERAL","value":true},"headerLevel":{"type":"JSON_LITERAL","value":"1"},"headingOnlyVisibleToScreenReaders":{"type":"JSON_LITERAL","value":false},"interceptNotifications":{"type":"JSON_LITERAL","value":false},"label":{"type":"TRANSLATION_LITERAL","value":{"code":null,"comment":"","message":""}},"propagateNotifications":{"type":"JSON_LITERAL","value":false},"scrollable":{"type":"JSON_LITERAL","value":"y"}}',
             disable_auto_reflow: 'false',

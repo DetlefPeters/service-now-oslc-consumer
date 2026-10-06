@@ -132,6 +132,10 @@ declare global {
                         table: 'sys_ux_client_script'
                         id: '9d575ec8c38683101c72b41ed40131b4'
                     }
+                    '9e689784ca724ba78abdc28d3ccce7a2': {
+                        table: 'sys_ux_screen'
+                        id: '9e689784ca724ba78abdc28d3ccce7a2'
+                    }
                     a073eca3c33943501c72b41ed4013131: {
                         table: 'sys_ux_diagnostic_rule_dismiss'
                         id: 'a073eca3c33943501c72b41ed4013131'
