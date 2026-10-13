@@ -905,6 +905,19 @@ declare global {
                             name: 'x_2121140_archimat_oslc_diagram'
                         }
                     },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'fbdb82442f978f101811b97a6fa4e308'
+                        key: {
+                            sys_security_acl: 'eabb8e042f978f101811b97a6fa4e383'
+                            sys_user_role: {
+                                id: '2831a114c611228501d4ea6c309d626d'
+                                key: {
+                                    name: 'admin'
+                                }
+                            }
+                        }
+                    },
                 ]
             }
         }
