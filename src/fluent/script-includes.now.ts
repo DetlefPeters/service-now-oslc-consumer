@@ -9,7 +9,7 @@ ScriptInclude({
     clientCallable: true,
     description: 'AJAX endpoint for importing ArchiMate diagrams from MID Innovator via OSLC',
     script: `var InoOSLCImporter = Class.create();
-InoOSLCImporter.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+InoOSLCImporter.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     /**
      * Returns a JSON array of model providers for the dropdown selection.
      * Each entry has: sys_id, name, provider_id
