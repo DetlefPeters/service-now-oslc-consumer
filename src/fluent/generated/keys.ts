@@ -5,6 +5,10 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '063b36672f3707501811b97a6fa4e33f': {
+                        table: 'sys_scope_privilege'
+                        id: '063b36672f3707501811b97a6fa4e33f'
+                    }
                     '0e579ec8c38683101c72b41ed4013161': {
                         table: 'sys_ux_screen'
                         id: '0e579ec8c38683101c72b41ed4013161'
@@ -61,6 +65,10 @@ declare global {
                     '41c02cebc3f543501c72b41ed401319d': {
                         table: 'sys_ux_screen'
                         id: '41c02cebc3f543501c72b41ed401319d'
+                    }
+                    '464d18052f3383101811b97a6fa4e39e': {
+                        table: 'sys_ux_page_property'
+                        id: '464d18052f3383101811b97a6fa4e39e'
                     }
                     '55575ec8c38683101c72b41ed40131cd': {
                         table: 'sys_ux_client_script'
@@ -119,6 +127,14 @@ declare global {
                         table: 'sys_ux_addon_event_mapping'
                         id: '68c0e8ebc3f543501c72b41ed4013168'
                     }
+                    '6bac92122fd3cf101811b97a6fa4e341': {
+                        table: 'sys_scope_privilege'
+                        id: '6bac92122fd3cf101811b97a6fa4e341'
+                    }
+                    '6c117e3df6b94957859ce9cc1641f35a': {
+                        table: 'sys_scope_privilege'
+                        id: '6c117e3df6b94957859ce9cc1641f35a'
+                    }
                     '7811e82fc3f543501c72b41ed40131da': {
                         table: 'sys_uib_screen_test_values'
                         id: '7811e82fc3f543501c72b41ed40131da'
@@ -147,6 +163,10 @@ declare global {
                     a4c0e8ebc3f543501c72b41ed4013188: {
                         table: 'sys_ux_addon_event_mapping'
                         id: 'a4c0e8ebc3f543501c72b41ed4013188'
+                    }
+                    a4f9d25a2f93cf101811b97a6fa4e3c4: {
+                        table: 'oauth_entity'
+                        id: 'a4f9d25a2f93cf101811b97a6fa4e3c4'
                     }
                     a5575ec8c38683101c72b41ed40131db: {
                         table: 'sys_ux_client_script'
@@ -179,6 +199,10 @@ declare global {
                     aa6074da2f1a87101811b97a6fa4e3b1: {
                         table: 'sys_security_acl'
                         id: 'aa6074da2f1a87101811b97a6fa4e3b1'
+                    }
+                    abac52122fd3cf101811b97a6fa4e3a4: {
+                        table: 'sys_scope_privilege'
+                        id: 'abac52122fd3cf101811b97a6fa4e3a4'
                     }
                     acc0e8ebc3f543501c72b41ed4013102: {
                         table: 'sys_ux_client_script'
@@ -350,6 +374,10 @@ declare global {
                         table: 'sys_uib_screen_test_values'
                         id: 'b811e82fc3f543501c72b41ed40131f7'
                     }
+                    b950858a2fd70f101811b97a6fa4e394: {
+                        table: 'sys_app_info'
+                        id: 'b950858a2fd70f101811b97a6fa4e394'
+                    }
                     bb6774b8f6054403a7f87d1d5911f89c: {
                         table: 'sys_ux_list'
                         id: 'bb6774b8f6054403a7f87d1d5911f89c'
@@ -403,6 +431,10 @@ declare global {
                         table: 'sys_ux_addon_event_mapping'
                         id: 'e5579ec8c38683101c72b41ed4013111'
                     }
+                    e7ac92122fd3cf101811b97a6fa4e346: {
+                        table: 'sys_scope_privilege'
+                        id: 'e7ac92122fd3cf101811b97a6fa4e346'
+                    }
                     e9575ec8c38683101c72b41ed40131d6: {
                         table: 'sys_ux_client_script'
                         id: 'e9575ec8c38683101c72b41ed40131d6'
@@ -411,9 +443,17 @@ declare global {
                         table: 'sys_ux_addon_event_mapping'
                         id: 'e9579ec8c38683101c72b41ed4013108'
                     }
+                    eabb8e042f978f101811b97a6fa4e383: {
+                        table: 'sys_security_acl'
+                        id: 'eabb8e042f978f101811b97a6fa4e383'
+                    }
                     ed575ec8c38683101c72b41ed40131f0: {
                         table: 'sys_ux_addon_event_mapping'
                         id: 'ed575ec8c38683101c72b41ed40131f0'
+                    }
+                    f0e9baa32f3707501811b97a6fa4e3f0: {
+                        table: 'sys_security_acl'
+                        id: 'f0e9baa32f3707501811b97a6fa4e3f0'
                     }
                     f8c02cebc3f543501c72b41ed4013144: {
                         table: 'sys_ux_app_route'
@@ -733,6 +773,19 @@ declare global {
                             name: 'x_2121140_archimat_diagram'
                             element: 'NULL'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'a3e97e2f2ff307501811b97a6fa4e334'
+                        key: {
+                            sys_security_acl: 'f0e9baa32f3707501811b97a6fa4e3f0'
+                            sys_user_role: {
+                                id: 'edaccb985cca4510b038ac15f4000e0e'
+                                key: {
+                                    name: 'x_2121140_archimat.user'
+                                }
+                            }
                         }
                     },
                     {

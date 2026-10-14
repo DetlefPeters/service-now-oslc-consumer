@@ -45,7 +45,7 @@ UiAction({
             })
         }];
         g_modal.showFields({
-            title: 'Get from Innovator',
+            title: 'Select Innovator model for import',
             fields: fields,
             size: 'sm',
             confirmTitle: 'Import'
@@ -79,8 +79,8 @@ UiAction({
             html += '<option value="' + providers[i].provider_id + '">' + providers[i].name + '</option>';
         }
         html += '</select>';
-        var dialog = new GlideDialogWindow('glide_confirm_basic');
-        dialog.setTitle('Get from Innovator');
+        var dialog = new GlideModal();
+        dialog.setTitle('Select Innovator model for Import');
         dialog.setBody(html);
         dialog.setPreference('onPromptComplete', function() {
             var selectedId = document.getElementById('provider_select').value;
@@ -130,7 +130,7 @@ Record({
             })
         }];
         g_modal.showFields({
-            title: 'Get from Innovator',
+            title: 'Select Innovator model',
             fields: fields,
             size: 'sm',
             confirmTitle: 'Import'
@@ -146,7 +146,7 @@ Record({
         });
     });
 }`,
-        tooltip: 'Select a model provider and import diagrams from MID Innovator',
+        tooltip: 'Select a model provider and import diagrams from that MID Innovator model',
         order: 100,
         active: true,
         enabled: true,
