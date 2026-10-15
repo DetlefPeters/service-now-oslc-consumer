@@ -82,7 +82,7 @@ UiAction({
         var dialog = new GlideModal();
         dialog.setTitle('Select Innovator model for Import');
         dialog.setBody(html);
-        dialog.setPreference('onPromptComplete', function() {
+        dialog.setPreference('onSubmit', function() {
             var selectedId = document.getElementById('provider_select').value;
             var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
             ga2.addParam('sysparm_name', 'importDiagramsAjax');

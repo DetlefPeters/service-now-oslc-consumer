@@ -475,7 +475,7 @@ declare global {
                     get_from_innovator_ws_action: {
                         table: 'sys_declarative_action_assignment'
                         id: '355d23c9ac1d4d63baab699955229f7b'
-                        deleted: false
+                        deleted: true
                     }
                     ino_oslc_importer_si: {
                         table: 'sys_script_include'
