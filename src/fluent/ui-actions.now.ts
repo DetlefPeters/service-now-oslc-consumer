@@ -1,4 +1,4 @@
-import { UiAction, Record } from '@servicenow/sdk/core'
+import { UiAction } from '@servicenow/sdk/core'
 
 // "Get from Innovator" dropdown button on diagrams list
 // Shows a modal with providers from x_2121140_archimat_model_provider table.
@@ -45,7 +45,7 @@ UiAction({
             })
         }];
         g_modal.showFields({
-            title: 'Select Innovator model for import',
+            title: 'Select Innovator model source',
             fields: fields,
             size: 'sm',
             confirmTitle: 'Import'
@@ -96,74 +96,4 @@ UiAction({
         dialog.render();
     });
 }`,
-})
-
-// --- Workspace Declarative Action (for configurable workspace list header) ---
-Record({
-    $id: Now.ID['get_from_innovator_ws_action'],
-    table: 'sys_declarative_action_assignment',
-    data: {
-        action_name: 'x_2121140_archimat_get_from_innovator',
-        label: 'Get from Innovator',
-        model: 'c3547169534723003eddddeeff7b126c', // list header action model
-        table: 'x_2121140_archimat_diagram',
-        button_type: 'primary',
-        declarative_action_type: 'client_script',
-        action_type: 'type',
-        specificity: 11,
-        client_script: `function onClick() {
-    var ga = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
-    ga.addParam('sysparm_name', 'getProviders');
-    ga.getXMLAnswer(function(answer) {
-        var providers = JSON.parse(answer);
-        if (!providers || providers.length === 0) {
-            g_form.addErrorMessage('No model providers found. Please add providers first.');
-            return;
-        }
-        var fields = [{
-            type: 'select',
-            name: 'provider',
-            label: 'Select Provider',
-            mandatory: true,
-            options: providers.map(function(p) {
-                return { value: p.provider_id, label: p.name };
-            })
-        }];
-        g_modal.showFields({
-            title: 'Select Innovator model',
-            fields: fields,
-            size: 'sm',
-            confirmTitle: 'Import'
-        }).then(function(fieldValues) {
-            var selectedProviderId = fieldValues.updatedFields[0].value;
-            var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
-            ga2.addParam('sysparm_name', 'importDiagramsAjax');
-            ga2.addParam('sysparm_provider_id', selectedProviderId);
-            ga2.getXMLAnswer(function(importAnswer) {
-                var result = JSON.parse(importAnswer);
-                window.location.reload();
-            });
-        });
-    });
-}`,
-        tooltip: 'Select a model provider and import diagrams from that MID Innovator model',
-        order: 100,
-        active: true,
-        enabled: true,
-        record_selection_required: false,
-        group_by: false,
-        write_access: false,
-        read_access: false,
-        create_access: false,
-        delete_access: false,
-        confirmation_required: false,
-        requires_value: false,
-        field_type: 'glide_date',
-        animate_icon: false,
-        form_fields_required: false,
-        experience_restricted: false,
-        enable_dynamic_evaluation: false,
-        client_action: '',
-        interaction: '',
-    },
 })
