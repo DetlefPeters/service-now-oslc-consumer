@@ -547,6 +547,40 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '2f8718d52f04df501811b97a6fa4e3d5'
+                        key: {
+                            sys_ui_section: {
+                                id: '9660f49a2f1a87101811b97a6fa4e392'
+                                key: {
+                                    name: 'x_2121140_archimat_model_provider'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'u_name'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '3b8718d52f04df501811b97a6fa4e3d8'
+                        key: {
+                            sys_ui_section: {
+                                id: '9660f49a2f1a87101811b97a6fa4e392'
+                                key: {
+                                    name: 'x_2121140_archimat_model_provider'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'u_base_url'
+                            position: '2'
+                        }
+                    },
+                    {
                         table: 'sys_security_acl_role'
                         id: '3b8fb69cfeb64f70bb5937902bfcbad9'
                         deleted: true
@@ -818,6 +852,40 @@ declare global {
                         key: {
                             name: 'x_2121140_archimat_oslc_diagram'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'b78718d52f04df501811b97a6fa4e3d9'
+                        key: {
+                            sys_ui_section: {
+                                id: '9660f49a2f1a87101811b97a6fa4e392'
+                                key: {
+                                    name: 'x_2121140_archimat_model_provider'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'u_service_provider_url'
+                            position: '3'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'bb8718d52f04df501811b97a6fa4e3d7'
+                        key: {
+                            sys_ui_section: {
+                                id: '9660f49a2f1a87101811b97a6fa4e392'
+                                key: {
+                                    name: 'x_2121140_archimat_model_provider'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'u_description'
+                            position: '1'
                         }
                     },
                     {

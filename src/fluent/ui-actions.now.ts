@@ -82,17 +82,17 @@ UiAction({
         var dialog = new GlideModal();
         dialog.setTitle('Select Innovator model for Import');
         dialog.setBody(html);
-        dialog.setPreference('onSubmit', function() {
-            var selectedId = document.getElementById('provider_select').value;
-            var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
-            ga2.addParam('sysparm_name', 'importDiagramsAjax');
-            ga2.addParam('sysparm_provider_id', selectedId);
-            ga2.getXMLAnswer(function(importAnswer) {
-                var result = JSON.parse(importAnswer);
-                var listId = gel('sys_target').value;
-                GlideList2.get(listId).refresh();
-            });
-        });
+//        dialog.setPreference('onSubmit', function() {
+//            var selectedId = document.getElementById('provider_select').value;
+//            var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
+//            ga2.addParam('sysparm_name', 'importDiagramsAjax');
+//            ga2.addParam('sysparm_provider_id', selectedId);
+//            ga2.getXMLAnswer(function(importAnswer) {
+//                var result = JSON.parse(importAnswer);
+//               var listId = gel('sys_target').value;
+//                GlideList2.get(listId).refresh();
+//            });
+//        });
         dialog.render();
     });
 }`,
