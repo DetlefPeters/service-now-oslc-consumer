@@ -51,12 +51,12 @@ UiAction({
             confirmTitle: 'Import'
         }).then(function(fieldValues) {
             var selectedProviderId = fieldValues.updatedFields[0].value;
-            var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
-            ga2.addParam('sysparm_name', 'importDiagramsAjax');
-            ga2.addParam('sysparm_provider_id', selectedProviderId);
-            ga2.getXMLAnswer(function(importAnswer) {
-                var result = JSON.parse(importAnswer);
-                g_form.addInfoMessage('Successfully imported ' + result.count + ' diagrams (Provider ID: ' + result.provider_id + ')');
+//            var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
+//            ga2.addParam('sysparm_name', 'importDiagramsAjax');
+//            ga2.addParam('sysparm_provider_id', selectedProviderId);
+//            ga2.getXMLAnswer(function(importAnswer) {
+//                var result = JSON.parse(importAnswer);
+//                g_form.addInfoMessage('Successfully imported ' + result.count + ' diagrams (Provider ID: ' + result.provider_id + ')');
             });
         });
     });
