@@ -57,7 +57,7 @@ UiAction({
 //            ga2.getXMLAnswer(function(importAnswer) {
 //                var result = JSON.parse(importAnswer);
 //                g_form.addInfoMessage('Successfully imported ' + result.count + ' diagrams (Provider ID: ' + result.provider_id + ')');
-            });
+//            });
         });
     });
 }`,
