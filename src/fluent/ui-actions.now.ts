@@ -83,7 +83,7 @@ UiAction({
         '<button onclick="window.selectSrcAction(this.innerHTML, document.getElementById(\'provider_select\').value)">Cancel</button>' +
         '<button class="btn btn-primary" onclick="window.selectSrcAction(this.innerHTML, document.getElementById(\'provider_select\').value)">Next</button>' +
         '</div></div>';
-        var dialog = new GlideModal("select_model server");
+        var dialog = new GlideModal();
         dialog.setTitle('Select Innovator source for Import');
         dialog.renderWithContent(html);
         
