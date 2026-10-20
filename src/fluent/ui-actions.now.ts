@@ -87,7 +87,7 @@ UiAction({
         dialog.setTitle('Select Innovator source for Import');
         dialog.renderWithContent(html);
         
-        window.changeTaskAction = function(button, action) {
+        window.selectSrcAction = function(button, action) {
             if (button === 'Cancel') {
                 dialog.destroy();
             } else {
