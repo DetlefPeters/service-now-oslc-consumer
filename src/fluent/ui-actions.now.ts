@@ -85,7 +85,8 @@ UiAction({
         '</div></div>';
         var dialog = new GlideModal();
         dialog.setTitle('Select Innovator source for Import');
-        dialog.renderWithContent(html);
+        dialog.setBody(html);
+        dialog.render();
         
         window.selectSrcAction = function(button, action) {
             if (button === 'Cancel') {
