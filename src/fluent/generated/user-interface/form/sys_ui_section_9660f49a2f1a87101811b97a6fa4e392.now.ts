@@ -9,6 +9,7 @@ Record({
         sys_domain: 'global',
         title: true,
         view: 'NULL',
+        sys_domain_path: '/',
     },
 })
 Record({

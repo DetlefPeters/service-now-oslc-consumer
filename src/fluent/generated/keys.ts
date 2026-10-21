@@ -622,6 +622,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '53caaf792fc017901811b97a6fa4e3d6'
+                        key: {
+                            sys_ui_section: {
+                                id: '79013c1e2f1a87101811b97a6fa4e304'
+                                key: {
+                                    name: 'x_2121140_archimat_diagram'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'u_description'
+                            position: '2'
+                        }
+                    },
+                    {
                         table: 'par_dashboard_canvas'
                         id: '5893f37162034555abefb856218db774'
                         key: {
@@ -929,6 +946,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'd3caaf792fc017901811b97a6fa4e3d5'
+                        key: {
+                            sys_ui_section: {
+                                id: '79013c1e2f1a87101811b97a6fa4e304'
+                                key: {
+                                    name: 'x_2121140_archimat_diagram'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'u_diagram_type'
+                            position: '1'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'd5e67d8a7a4044aa9a0214d1baf2ee93'
                         key: {
@@ -956,6 +990,23 @@ declare global {
                                     name: 'x_2121140_archimat.user'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'dbcaaf792fc017901811b97a6fa4e3d3'
+                        key: {
+                            sys_ui_section: {
+                                id: '79013c1e2f1a87101811b97a6fa4e304'
+                                key: {
+                                    name: 'x_2121140_archimat_diagram'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'u_diagram_name'
+                            position: '0'
                         }
                     },
                     {
