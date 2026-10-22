@@ -80,19 +80,18 @@ UiAction({
         }
         html += '</select>' +
         '<div style="padding:5px;float:right">' +
-        '<button onclick="window.selectSrcAction(this.innerHTML, document.getElementById(\'provider_select\').value)">Cancel</button>' +
-        '<button class="btn btn-primary" onclick="window.selectSrcAction(this.innerHTML, document.getElementById(\'provider_select\').value)">Next</button>' +
+        '<button onclick="window.selectSrcAction("cancel", document.getElementById("provider_select").value)">Cancel</button>' +
+        '<button class="btn btn-primary" onclick="window.selectSrcAction("next", document.getElementById("provider_select").value)">Next</button>' +
         '</div></div>';
         var dialog = new GlideModal('select_model_source');
         dialog.setTitle('Select Innovator source for Import');
-        dialog.setBody(html);
-        dialog.render();
+        dialog.renderWithContent(html);
         
-        window.selectSrcAction = function(button, action) {
-            if (button === 'Cancel') {
+        window.selectSrcAction = function(action, selection) {
+            if (action == "cancel") {
                 dialog.destroy();
             } else {
-                var selectedId = document.getElementById(\'provider_select\').value;
+                var selectedId = selection;
                 var ga2 = new GlideAjax('x_2121140_archimat.InoOSLCImporter');
                 ga2.addParam('sysparm_name', 'importDiagramsAjax');
                 ga2.addParam('sysparm_provider_id', selectedId);
@@ -105,4 +104,5 @@ UiAction({
         };
     });
 }`,
+    messages: [],
 })

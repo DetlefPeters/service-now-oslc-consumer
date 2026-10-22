@@ -31,13 +31,14 @@ export const archimateListConfig = UxListMenuConfig({
                     order: 10,
                     condition: '',
                     table: 'x_2121140_archimat_diagram',
-                    columns: 'u_diagram_name,u_diagram_type,u_diagram_id',
+                    columns: 'u_diagram_name,u_diagram_type,u_description,u_diagram_id,u_origin_model',
                     applicabilities: [
                         {
                             $id: Now.ID['archimate_diagrams_all_applicability'],
                             applicability: archimateApplicability,
                         },
                     ],
+                    groupByColumn: 'u_origin_model',
                 },
             ],
         },
@@ -52,8 +53,7 @@ export const archimateListConfig = UxListMenuConfig({
                     order: 10,
                     condition: '',
                     table: 'x_2121140_archimat_model_element',
-                    columns:
-                        'u_element_name,u_element_type,u_element_id',
+                    columns: 'u_element_name,u_element_type,u_element_id',
                     applicabilities: [
                         {
                             $id: Now.ID['archimate_elements_all_applicability'],
@@ -74,8 +74,7 @@ export const archimateListConfig = UxListMenuConfig({
                     order: 10,
                     condition: '',
                     table: 'x_2121140_archimat_model_relationship',
-                    columns:
-                        'u_source_element,u_relationship_type,u_target_element',
+                    columns: 'u_source_element,u_relationship_type,u_target_element',
                     applicabilities: [
                         {
                             $id: Now.ID['archimate_relationships_all_applicability'],
