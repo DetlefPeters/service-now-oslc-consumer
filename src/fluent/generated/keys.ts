@@ -160,6 +160,10 @@ declare global {
                         table: 'sys_ux_client_script'
                         id: 'a0c0a8ebc3f543501c72b41ed40131f9'
                     }
+                    a1a6fffd2f0417901811b97a6fa4e302: {
+                        table: 'sys_ux_form_action_layout_item'
+                        id: 'a1a6fffd2f0417901811b97a6fa4e302'
+                    }
                     a4c0e8ebc3f543501c72b41ed4013188: {
                         table: 'sys_ux_addon_event_mapping'
                         id: 'a4c0e8ebc3f543501c72b41ed4013188'
